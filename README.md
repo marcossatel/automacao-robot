@@ -20,15 +20,21 @@ Para a instalação do python, acesse o seguinte [link](https://www.python.org/d
 
 **Robot  Framework**
 Após instalar o **Python**, para a instalação do robot, execute o seguinte comando no terminal como administrador.
-```	pip install robotframework```
+```	
+	pip install robotframework
+```
 
 **SeleniumLibrary**
 Após instalar o **Python** e **Robot Framework**, para a instalacao do SeleniumLibrary, execute o seguinte comando no terminal com administrador.
-```	pip install --upgrade robotframework-seleniumlibrary```
+```	
+	pip install --upgrade robotframework-seleniumlibrary
+```
 
 **FakerLibrary**
 Biblioteca utilizada para a geração de dados aleatórios, execute como administrador no terminal.
-```	pip install robotframework-faker```
+```	
+	pip install robotframework-faker
+```
 
 **ChromeDriver**
 Faça download da versão compatível com seu navegador no [link](https://chromedriver.chromium.org/downloads)
@@ -44,6 +50,10 @@ Caminho: automacao-robot\resources\shared\setup_teardown.robot
 ## Execução dos Testes
 
 Para execução dos testes é necessário executar o seguinte comando:
-		```	robot <nomedoarquivo.robot>```
+```	
+	robot <nomedoarquivo.robot>
+```
 Exemplo:
-		```robot cadastro_email_invalido.robot```
+```
+	robot cadastro_email_invalido.robot
+```
